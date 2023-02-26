@@ -1,0 +1,27 @@
+{
+  "name": "fluent_anvil_js",
+  "version": "1.0.0",
+  "description": "JavaScript interface to Project Fluent for Anvil.",
+  "source": "src/fluent_anvil.js",
+  "module": "dist/fluent_anvil.js",
+  "targets": {
+    "module": {
+      "context": "browser",
+      "outputFormat": "esmodule",
+      "optimize": true,
+      "includeNodeModules": true
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcus Wörner",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "@fluent/bundle": "^0.17.1",
+    "@fluent/dom": "^0.8.1"
+  }
+}
