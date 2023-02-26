@@ -13,7 +13,8 @@
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel build"
   },
   "author": "Marcus Wörner",
   "license": "MIT",
@@ -22,6 +23,7 @@
   },
   "dependencies": {
     "@fluent/bundle": "^0.17.1",
-    "@fluent/dom": "^0.8.1"
+    "@fluent/dom": "^0.8.1",
+    "get-user-locale": "^2.1.3"
   }
 }
