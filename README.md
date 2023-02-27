@@ -5,10 +5,11 @@
 In contrast to gettext you can create more nuanced and natural sounding translations. For example, Polish has more plural forms than English or German. Therefore, selecting the right translation requires knowing whether there are one, few or many of something. With localization systems like gettext, this requires adding additional logic inside your application for every special case you might encounter for all languages you want to support. With fluent, this language-specific logic is encapsulated in the translation file and does not impact other translations.
 
 Personally, I also find fluent easier to learn and use than gettext. In simple cases, a translation for a given locale is just a text file with string definitions like:
+en_US/main.ftl:
 ```
 close-button = Close
 ```
-or
+or de_DE/main.ftl:
 ```
 close-button = Schließen
 ```
