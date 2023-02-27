@@ -14,4 +14,4 @@ de_DE/main.ftl:
 ```
 close-button = Schließen
 ```
-If you have simple translations, the file stays simple. If a translation happens to be more complicated for a language, you only need to add the logic in the translation file for that particular language. You can find out more about fluent at [Project Fluent](https://projectfluent.org/).
+If you have simple translations, the file stays simple. If a translation happens to be more complicated for a language, you only need to add the logic in the translation file for that particular language. You can find out more at [Project Fluent](https://projectfluent.org/).
