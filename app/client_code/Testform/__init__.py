@@ -2,6 +2,8 @@ from ._anvil_designer import TestformTemplate
 from anvil import *
 from ..lib import Fluent, Message as M
 
+from datetime import timedelta
+
 
 class Testform(TestformTemplate):
     def __init__(self, **properties):
@@ -12,10 +14,11 @@ class Testform(TestformTemplate):
         print("Preferred:", Fluent.get_preferred_locales())
         print("Preferred:", Fluent.get_preferred_locales("en_US"))
 
-        fluent = Fluent("test_localization/{locale}/main.ftl", "es_NX", ["es_MX", "en_US"])
+        fluent = Fluent("test_localization/{locale}/main.ftl", "de_DE", ["es_MX", "en_US"])
         
         print(fluent.format("hello"))
         print(fluent.format("hello", name="John"))
+        print(fluent.format("time-elapsed", duration=128.345 ))
 
         fluent.set_locale("en_US", [])
 

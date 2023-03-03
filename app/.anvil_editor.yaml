@@ -12,5 +12,6 @@ unique_ids:
     test_localization/es_MX/.gitkeep: '1677324760075274558786522.09576'
     test_localization/.gitkeep: '1677323869295749019807801.5189'
     test_localization/en_US/.gitkeep: '1677323894565607260119068.191'
+    test_localization/de_DE/main.ftl: S3PZXZSKAX4JMOTOZ3E3X6HBP3S736IZ
     fluent_anvil.js: '167741551131045273341163.812874'
     test_localization/en_US/main.ftl: '1677419242954288589118262.29236'

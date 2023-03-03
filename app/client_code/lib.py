@@ -123,7 +123,7 @@ class Fluent:
         language tags. Therefore, replace any underscores with hyphens. The JavaScript 
         library will switch to underscore again when loading the assets.
         """
-        return locale.replace("_", "_")
+        return locale.replace("_", "-")
 
     def __init__(
         self,
