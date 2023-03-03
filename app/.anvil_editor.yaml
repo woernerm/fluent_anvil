@@ -1,0 +1,16 @@
+unique_ids:
+  forms:
+    Testform: '1677325303699804653819924.646'
+  modules:
+    lib: '1677415676680327777090769.1855'
+  server_modules: {}
+  assets:
+    fluent_anvil.js.map: '1677415519947842660090687.2175'
+    theme.css: ZYVSPRPCXFUAZCBI7HOCIW6YJUU26ZVZ
+    test_localization/es_MX/main.ftl: '1677324810493640268837405.2228'
+    standard-page.html: EAK4BD3VSCNA3QEDQGEYCZS7SBM7LDQA
+    test_localization/es_MX/.gitkeep: '1677324760075274558786522.09576'
+    test_localization/.gitkeep: '1677323869295749019807801.5189'
+    test_localization/en_US/.gitkeep: '1677323894565607260119068.191'
+    fluent_anvil.js: '167741551131045273341163.812874'
+    test_localization/en_US/main.ftl: '1677419242954288589118262.29236'

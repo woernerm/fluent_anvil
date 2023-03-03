@@ -1,0 +1,13 @@
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
+startup: {type: form, module: Testform}
+package_name: fluent_anvil
+allow_embedding: false
+name: fluent_anvil
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
+  server_spec: null}
+metadata: {title: Fluent Anvil}
+startup_form: null
+native_deps: {head_html: ''}
