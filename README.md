@@ -89,7 +89,7 @@ You can switch to a different locale on the fly using `set_locale()`. Again, the
 fluent.set_locale("en-US", ["en-GB", "en-AU"])
 ```
 
-##Bonus Round: Translate your HTML Templates
+## Bonus Round: Translate your HTML Templates
 You can translate your static content as well. Just add the tags `data-l10n-id` for the message id and `data-l10n-args` for context variables (if needed) like this:
 ```html
 <h1 id='welcome' data-l10n-id='hello' data-l10n-args='{"name": "world"}'>Localize me!</h1>
