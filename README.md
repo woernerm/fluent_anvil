@@ -32,11 +32,11 @@ With Fluent, you can use variables for placeholders or selecting the appropriate
 `hello = Hola { $name }.`
 
 Then, import two classes in your form (Message is optional but required for the examples):
-```
+```py
 from fluent_anvil.lib import Fluent, Message
 ```
 If you want to know which locale the user prefers, just call
-```
+```py
 Fluent.get_preferred_locales()
 ```
 This will return a list of locales such as `['de-DE']` that the user prefers (this method does not use Fluent but the [get-user-locale](https://www.npmjs.com/package/get-user-locale) package).
