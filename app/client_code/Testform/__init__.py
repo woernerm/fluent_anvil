@@ -14,13 +14,13 @@ class Testform(TestformTemplate):
         print("Preferred:", Fluent.get_preferred_locales())
         print("Preferred:", Fluent.get_preferred_locales("en_US"))
 
-        fluent = Fluent("test_localization/{locale}/main.ftl", "de_DE", ["es_MX", "en_US"])
+        fluent = Fluent("test_localization/{locale}/main.ftl", "es_MX", ["es_MX", "en_US"])
         
         print(fluent.format("hello"))
         print(fluent.format("hello", name="John"))
-        print(fluent.format("time-elapsed", duration=128.345 ))
+        print(fluent.format("time-elapsed", duration=12342423.234 ))
 
-        fluent.set_locale("en_US", [])
+        #fluent.set_locale("en_US", [])
 
         print(fluent.format(
             M("hello", name="world"), 

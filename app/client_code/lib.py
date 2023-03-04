@@ -93,7 +93,7 @@ class Fluent:
             """Initialize Fluent's DOMLocalization and Localization object."""
             
             # Determine the path prefix and ensure it ends with a forward slash.
-            prefix = path_prefix or self.ASSET_URL
+            prefix = self.ASSET_URL if path_prefix is None else path_prefix
             prefix = "" if path_template.startswith(prefix) else prefix
             prefix = prefix if prefix.endswith("/") else f"{prefix}/"
 
