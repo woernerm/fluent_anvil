@@ -14,8 +14,9 @@ close-button = Schließen
 ```
 
 For simple translations, the syntax stays simple. If a translation happens to be more complicated for a language, you only need to add the logic in the translation file for that particular language. You can find out more at [Project Fluent](https://projectfluent.org/).
-
 The translation happens entirely on the client side. Therefore, it works on [Anvil's free plan](https://anvil.works/pricing) as well since there is no need to install a special package.
+
+Please note that this is a personal project with the hope that it may be of use to others as well. I am neither affiliated with [Project Fluent](https://projectfluent.org/) nor [Anvil](https://anvil.works/).
 
 ## Quick Guide
 In Anvil's assets section, add a directory to place your translations in, ideally you have one subfolder for each locale, e.g.
