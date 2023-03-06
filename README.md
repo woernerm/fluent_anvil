@@ -1,9 +1,10 @@
-# Introduction
+# Fluent Anvil
+## Introduction
 [Fluent](https://projectfluent.org/) is a localization system for natural-sounding translations. There are official implementations for [JavaScript](https://github.com/projectfluent/fluent.js), [Python](https://github.com/projectfluent/python-fluent) and [Rust](https://github.com/projectfluent/fluent-rs). This library provides an interface for [Anvil](https://anvil.works/). The repository contains both the JavaScript interface as well as the corresponding Anvil app. 
 
 In the Anvil editor you can add this library as a third party dependency using the token UHLC7WE6TELL25TO . Therefore, you do not need to download this library unless you want to contribute (you are welcome to do so), want to know how it works or experience issues adding it as a dependency. Please note that this is a personal project with the hope that it may be of use to others as well. I am neither affiliated with [Project Fluent](https://projectfluent.org/) nor [Anvil](https://anvil.works/).
 
-# Why use Fluent?
+## Why use Fluent?
 In contrast to gettext you can create more nuanced and natural sounding translations. For example, Polish has more plural forms than English or German. Therefore, selecting the right translation requires knowing whether there are one, few or many of something. With localization systems like gettext, this requires adding additional logic inside your application for every special case you might encounter for all languages you want to support. With fluent, this language-specific logic is encapsulated in the translation file and does not impact other translations.
 
 Personally, I also find fluent easier to learn and use than gettext. In simple cases, a translation for a given locale is just a text file with string definitions like:
@@ -18,7 +19,7 @@ close-button = Schließen
 ```
 If you have simple translations, the file stays simple. If a translation happens to be more complicated for a language, you only need to add the logic in the translation file for that particular language. You can find out more at [Project Fluent](https://projectfluent.org/).
 
-# Quick Guide
+## Quick Guide
 In Anvil's assets section, add a directory to place your translations in, ideally you have one subfolder for each locale, e.g.
 - localization
      - es_MX
@@ -89,7 +90,7 @@ You can switch to a different locale on the fly using `set_locale()`. Again, the
 fluent.set_locale("en-US", ["en-GB", "en-AU"])
 ```
 
-## Bonus Round: Translate your HTML Templates
+### Bonus Round: Translate your HTML Templates
 You can translate your static content as well. Just add the tags `data-l10n-id` for the message id and `data-l10n-args` for context variables (if needed) like this:
 ```html
 <h1 id='welcome' data-l10n-id='hello' data-l10n-args='{"name": "world"}'>Localize me!</h1>
