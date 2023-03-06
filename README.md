@@ -1,5 +1,5 @@
 # Fluent Anvil
-This library makes it easy to serve high-quality translated and localized versions of your Anvil app. You can make your App appeal to and accessible for everyone. All you need to do is add it as a third party dependency with the token UHLC7WE6TELL25TO . 
+This library makes it easy to serve high-quality translated and localized versions of your [Anvil](https://anvil.works/) app. You can make your App appeal to and accessible for everyone. All you need to do is add it as a third party dependency with the token UHLC7WE6TELL25TO . 
 The library serves as a Python interface to [Fluent](https://projectfluent.org/). It is a localization system developed by Mozilla for natural-sounding translations. In contrast to gettext you can create more nuanced and natural sounding translations. For example, Polish has more plural forms than English or German. Therefore, selecting the right translation requires knowing how many there are of something. With localization systems like gettext, this requires adding additional logic inside your application. With fluent, this language-specific logic is encapsulated in the translation file and does not impact other translations.
 
 Personally, I think the greatest thing about fluent apart from the translation quality is that is easier to learn and use than gettext: It uses only one simple text file format (.ftl) and does not require specialized extraction tools. Often, translations are as simple as this:
@@ -15,7 +15,7 @@ close-button = Schließen
 
 For simple translations, the syntax stays simple. If a translation happens to be more complicated for a language, you only need to add the logic in the translation file for that particular language. You can find out more at [Project Fluent](https://projectfluent.org/).
 
-The translation happens entirely on the client side. Therefore, it works on Anvil's free plan as well since there is no need to install a special package.
+The translation happens entirely on the client side. Therefore, it works on [Anvil's free plan](https://anvil.works/pricing) as well since there is no need to install a special package.
 
 ## Quick Guide
 In Anvil's assets section, add a directory to place your translations in, ideally you have one subfolder for each locale, e.g.
