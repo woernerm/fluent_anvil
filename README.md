@@ -1,5 +1,4 @@
 # Fluent Anvil
-## Introduction
 [Fluent](https://projectfluent.org/) is a localization system for natural-sounding translations. There are official implementations for [JavaScript](https://github.com/projectfluent/fluent.js), [Python](https://github.com/projectfluent/python-fluent) and [Rust](https://github.com/projectfluent/fluent-rs). This library provides an interface for [Anvil](https://anvil.works/). The repository contains both the JavaScript interface as well as the corresponding Anvil app. 
 
 In the Anvil editor you can add this library as a third party dependency using the token UHLC7WE6TELL25TO . Therefore, you do not need to download this library unless you want to contribute (you are welcome to do so), want to know how it works or experience issues adding it as a dependency. Please note that this is a personal project with the hope that it may be of use to others as well. I am neither affiliated with [Project Fluent](https://projectfluent.org/) nor [Anvil](https://anvil.works/).
